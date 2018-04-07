@@ -12,9 +12,7 @@ public class UserModel {
         xmlParser xmlParser = new xmlParser();
         NodeList nodes = xmlParser.parseXml("admin");
 
-        for(int i = 0; i < nodes.getLength(); i++){
-            System.out.println(nodes.item(i).getTextContent());
-        }
+       
 
         setUserCredential(nodes.item(0).getChildNodes().item(1).getTextContent(),
                 nodes.item(0).getChildNodes().item(3).getTextContent());
