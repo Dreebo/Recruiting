@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<users>
+    <user role = "admin">
+        <login>kabanov@tc.by</login>
+        <password>welcome</password>
+    </user>
+
+    <user role = "director">
+        <login>sdfsdfsdfsdfsdf</login>
+        <password>sdfsdfsdfsdfsdf</password>
+    </user>
+</users>
