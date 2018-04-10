@@ -18,8 +18,8 @@ public class UploadPage {
     }
 
     public void uploadPicture() {
-        WebElement element = driver.findElement(UploadFife.UPLOAD_IMG);
-        element.sendKeys(getAbsolutePath("resources/human.png"));
+        WebElement Element = driver.findElement(By.xpath("//input[@id='profileImage']"));
+        Element.sendKeys(getAbsolutePath("resources/human.png"));
     }
     public void outPicture(){
         WebElement picture = driver.findElement(By.id("currentImage"));

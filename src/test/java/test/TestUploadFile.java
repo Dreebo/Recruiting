@@ -1,5 +1,6 @@
 package test;
 import driver.WebDriverSingleton;
+import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,8 +21,6 @@ public class TestUploadFile {
         up.enterUploadPage();
         up.uploadPicture();
         up.outPicture();
-        cc.enterCreateCandidate();
-        cc.clickCreate();
         cc.typeSName("Петров");
         cc.typeFName("Иван");
         cc.typeSecName("Федорович");
@@ -43,6 +42,11 @@ public class TestUploadFile {
         }
 
 
+    @After
+    public void shutDown() {
+        driver.close();
+        WebDriverSingleton.destroyInstance();
+    }
 
     }
 
