@@ -1,7 +1,15 @@
 package test;
 
+import driver.WebDriverSingleton;
+import element.Element;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
+import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import web.models.UserModel;
 import web.page.CommentPage;
 import web.page.LoginPage;
@@ -27,11 +35,24 @@ public class TestComment {
     }
 
     @Test
+    @DisplayName("Комментарии")
+    @Description("Создание комментария")
+    @Feature("Кандидат")
+    @Story("Сценарий 1 – Создание комментария у имеющегося кандидата")
+    @Severity(SeverityLevel.TRIVIAL)
     public void delete(){
       cp.enterCandidatesPage();
       cp.clickCheckboxNew();
       cp.clickCheckboxMoving();
       cp.enterCandidates();
       cp.clickComment();
+      cp.typeComment("Коммуникабельный человек");
+      cp.clickSave();
+      cp.clickDelete();
+
+
     }
+
+
 }
+

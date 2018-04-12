@@ -25,4 +25,15 @@ public class CommentPage {
     public void clickComment(){
         Comment.COMMENT.click();}
 
+    public void typeComment(String comment){
+        Comment.INSCRIPTION.type(comment);
+    }
+    public void clickSave(){
+        Comment.SAVE.click();
+}
+    public void clickDelete(){
+        Comment.DELETE.click();
+    }
+
+
 }

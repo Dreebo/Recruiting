@@ -1,0 +1,91 @@
+[ {
+  "uid" : "fbe1bea78675bc4a",
+  "name" : "Создание кандидата",
+  "time" : {
+    "start" : 1523543850429,
+    "stop" : 1523543900622,
+    "duration" : 50193
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "c597461315cfc056",
+  "name" : "Редактирование кандидата",
+  "time" : {
+    "start" : 1523544124000,
+    "stop" : 1523544181102,
+    "duration" : 57102
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7c986a1679204182",
+  "name" : "Создание кандидата",
+  "time" : {
+    "start" : 1523543938888,
+    "stop" : 1523543989161,
+    "duration" : 50273
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "3cdbc9651da5e182",
+  "name" : "Создание кандидата",
+  "time" : {
+    "start" : 1523543791698,
+    "stop" : 1523543817697,
+    "duration" : 25999
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "da4f3a7f81a0a663",
+  "name" : "Редактирование кандидата",
+  "time" : {
+    "start" : 1523544212890,
+    "stop" : 1523544298276,
+    "duration" : 85386
+  },
+  "status" : "broken",
+  "severity" : "trivial"
+}, {
+  "uid" : "d3d3b9b615b8f793",
+  "name" : "Создание кандидата",
+  "time" : {
+    "start" : 1523544320035,
+    "stop" : 1523544320044,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "15bb2e1f6656b4ad",
+  "name" : "Комментарии",
+  "time" : {
+    "start" : 1523543694027,
+    "stop" : 1523543790332,
+    "duration" : 96305
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "918fbca775fd2871",
+  "name" : "Удаление кандидата",
+  "time" : {
+    "start" : 1523544105049,
+    "stop" : 1523544106868,
+    "duration" : 1819
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "55032a16375530f9",
+  "name" : "Создание кандидата",
+  "time" : {
+    "start" : 1523544039437,
+    "stop" : 1523544089531,
+    "duration" : 50094
+  },
+  "status" : "broken",
+  "severity" : "trivial"
+} ]

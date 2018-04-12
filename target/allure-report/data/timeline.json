@@ -1,0 +1,160 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 9
+  },
+  "time" : {
+    "minDuration" : 9,
+    "maxDuration" : 96305,
+    "sumDuration" : 417180,
+    "start" : 1523543694027,
+    "stop" : 1523544320044,
+    "duration" : 626017
+  },
+  "children" : [ {
+    "uid" : "3badedba80da4ca9",
+    "name" : "DESKTOP-CO0ATF4",
+    "time" : {
+      "minDuration" : 9,
+      "maxDuration" : 96305,
+      "sumDuration" : 417180,
+      "start" : 1523543694027,
+      "stop" : 1523544320044,
+      "duration" : 626017
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "b7b07f12af32f03b",
+      "name" : "4148@DESKTOP-CO0ATF4.main(1)",
+      "time" : {
+        "minDuration" : 9,
+        "maxDuration" : 96305,
+        "sumDuration" : 417180,
+        "start" : 1523543694027,
+        "stop" : 1523544320044,
+        "duration" : 626017
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "34b805dae41885b3",
+        "name" : "Создание кандидата",
+        "time" : {
+          "start" : 1523543850429,
+          "stop" : 1523543900622,
+          "duration" : 50193
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "da91bef57a0ba161",
+        "name" : "Редактирование кандидата",
+        "time" : {
+          "start" : 1523544124000,
+          "stop" : 1523544181102,
+          "duration" : 57102
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3098b71999f9d8b9",
+        "name" : "Создание кандидата",
+        "time" : {
+          "start" : 1523543938888,
+          "stop" : 1523543989161,
+          "duration" : 50273
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "4cf7842b80d459e9",
+        "name" : "Создание кандидата",
+        "time" : {
+          "start" : 1523543791698,
+          "stop" : 1523543817697,
+          "duration" : 25999
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "7fc3b2ef7ef74519",
+        "name" : "Редактирование кандидата",
+        "time" : {
+          "start" : 1523544212890,
+          "stop" : 1523544298276,
+          "duration" : 85386
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "fe1d3ad143ad6c5a",
+        "name" : "Создание кандидата",
+        "time" : {
+          "start" : 1523544320035,
+          "stop" : 1523544320044,
+          "duration" : 9
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9c0eaaaf82e95042",
+        "name" : "Комментарии",
+        "time" : {
+          "start" : 1523543694027,
+          "stop" : 1523543790332,
+          "duration" : 96305
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ecbcfd8eef4b028e",
+        "name" : "Удаление кандидата",
+        "time" : {
+          "start" : 1523544105049,
+          "stop" : 1523544106868,
+          "duration" : 1819
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "764f71b7c1e5c511",
+        "name" : "Создание кандидата",
+        "time" : {
+          "start" : 1523544039437,
+          "stop" : 1523544089531,
+          "duration" : 50094
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

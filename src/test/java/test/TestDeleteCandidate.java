@@ -1,5 +1,9 @@
 package test;
 
+import driver.WebDriverSingleton;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import web.models.UserModel;
@@ -26,6 +30,11 @@ public class TestDeleteCandidate {
     }
 
     @Test
+    @DisplayName("Удаление кандидата")
+    @Description("Удаление кандадита за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Удаление существующего кандидата")
+    @Severity(SeverityLevel.BLOCKER)
     public void deleteCandidate(){
         dc.enterCandidatesPage();
         dc.typeSearch("Петров");
@@ -33,5 +42,9 @@ public class TestDeleteCandidate {
         dc.clickCandidate();
         dc.clickDelete();
 
+    }
+    @After
+    public void closeTest() {
+        WebDriverSingleton.destroyInstance();
     }
 }

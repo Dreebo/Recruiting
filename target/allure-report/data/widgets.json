@@ -1,0 +1,60 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "time" : {
+      "minDuration" : 9,
+      "maxDuration" : 96305,
+      "sumDuration" : 417180,
+      "start" : 1523543694027,
+      "stop" : 1523544320044,
+      "duration" : 626017
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 1,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 9
+  } ],
+  "behaviors" : {
+    "total" : 2,
+    "items" : [ {
+      "name" : "Подбор и адаптация",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      }
+    }, {
+      "name" : "Кандидат",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      }
+    } ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "recruit"
+  } ],
+  "launches" : [ ]
+}

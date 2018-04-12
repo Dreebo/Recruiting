@@ -1,5 +1,7 @@
 package test;
 import driver.WebDriverSingleton;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -15,6 +17,11 @@ public class TestUploadFile {
     CreateCandidatePage cc = new CreateCandidatePage();
 
     @Test
+    @DisplayName("Создание кандидата")
+    @Description("Создание кандидата с фото")
+    @Feature("Кандидат")
+    @Story("Сценарий 1 – Создание кандидата с загрузкой фото")
+    @Severity(SeverityLevel.BLOCKER)
     public void uploadFile(){
 
         login();
@@ -34,6 +41,7 @@ public class TestUploadFile {
         cc.enterBackCandidate();
 
     }
+        @Step("Авторизация")
         private void login(){
             driver.get("http://testing.cld.iba.by/");
             driver.findElement(By.id("_58_login")).sendKeys("kabanov@tc.by");
@@ -43,8 +51,7 @@ public class TestUploadFile {
 
 
     @After
-    public void shutDown() {
-        driver.close();
+    public void closeTest() {
         WebDriverSingleton.destroyInstance();
     }
 

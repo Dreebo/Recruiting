@@ -1,0 +1,223 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 9
+  },
+  "time" : {
+    "minDuration" : 9,
+    "maxDuration" : 96305,
+    "sumDuration" : 417180,
+    "start" : 1523543694027,
+    "stop" : 1523544320044,
+    "duration" : 626017
+  },
+  "children" : [ {
+    "uid" : "c0ba2c570653b0ff",
+    "name" : "test.TestCreateCandidate",
+    "time" : {
+      "minDuration" : 25999,
+      "maxDuration" : 50273,
+      "sumDuration" : 176559,
+      "start" : 1523543791698,
+      "stop" : 1523544089531,
+      "duration" : 297833
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "34b805dae41885b3",
+      "name" : "Создание кандидата",
+      "time" : {
+        "start" : 1523543850429,
+        "stop" : 1523543900622,
+        "duration" : 50193
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "3098b71999f9d8b9",
+      "name" : "Создание кандидата",
+      "time" : {
+        "start" : 1523543938888,
+        "stop" : 1523543989161,
+        "duration" : 50273
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4cf7842b80d459e9",
+      "name" : "Создание кандидата",
+      "time" : {
+        "start" : 1523543791698,
+        "stop" : 1523543817697,
+        "duration" : 25999
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "764f71b7c1e5c511",
+      "name" : "Создание кандидата",
+      "time" : {
+        "start" : 1523544039437,
+        "stop" : 1523544089531,
+        "duration" : 50094
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "cc46f882e4a44ed4",
+    "name" : "test.TestEditApplication",
+    "time" : {
+      "minDuration" : 57102,
+      "maxDuration" : 85386,
+      "sumDuration" : 142488,
+      "start" : 1523544124000,
+      "stop" : 1523544298276,
+      "duration" : 174276
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "da91bef57a0ba161",
+      "name" : "Редактирование кандидата",
+      "time" : {
+        "start" : 1523544124000,
+        "stop" : 1523544181102,
+        "duration" : 57102
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "7fc3b2ef7ef74519",
+      "name" : "Редактирование кандидата",
+      "time" : {
+        "start" : 1523544212890,
+        "stop" : 1523544298276,
+        "duration" : 85386
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "8870877b111aee89",
+    "name" : "test.TestUploadFile",
+    "time" : {
+      "minDuration" : 9,
+      "maxDuration" : 9,
+      "sumDuration" : 9,
+      "start" : 1523544320035,
+      "stop" : 1523544320044,
+      "duration" : 9
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "fe1d3ad143ad6c5a",
+      "name" : "Создание кандидата",
+      "time" : {
+        "start" : 1523544320035,
+        "stop" : 1523544320044,
+        "duration" : 9
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "cd3037577f7e6fff",
+    "name" : "test.TestComment",
+    "time" : {
+      "minDuration" : 96305,
+      "maxDuration" : 96305,
+      "sumDuration" : 96305,
+      "start" : 1523543694027,
+      "stop" : 1523543790332,
+      "duration" : 96305
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "9c0eaaaf82e95042",
+      "name" : "Комментарии",
+      "time" : {
+        "start" : 1523543694027,
+        "stop" : 1523543790332,
+        "duration" : 96305
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "b996ce4a7f983b49",
+    "name" : "test.TestDeleteCandidate",
+    "time" : {
+      "minDuration" : 1819,
+      "maxDuration" : 1819,
+      "sumDuration" : 1819,
+      "start" : 1523544105049,
+      "stop" : 1523544106868,
+      "duration" : 1819
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "ecbcfd8eef4b028e",
+      "name" : "Удаление кандидата",
+      "time" : {
+        "start" : 1523544105049,
+        "stop" : 1523544106868,
+        "duration" : 1819
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

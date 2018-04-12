@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.TestUploadFile
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.861 s <<< FAILURE! - in test.TestUploadFile
+uploadFile(test.TestUploadFile)  Time elapsed: 0.093 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-CO0ATF4', ip: '192.168.100.20', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+	at test.TestUploadFile.<init>(TestUploadFile.java:15)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8868/status] to be available after 20006 ms
+	at test.TestUploadFile.<init>(TestUploadFile.java:15)
+Caused by: java.util.concurrent.TimeoutException
+	at test.TestUploadFile.<init>(TestUploadFile.java:15)
+
