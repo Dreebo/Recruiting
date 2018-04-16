@@ -1,157 +1,135 @@
 {
   "statistic" : {
-    "failed" : 1,
-    "broken" : 6,
+    "failed" : 0,
+    "broken" : 2,
     "skipped" : 0,
-    "passed" : 2,
+    "passed" : 5,
     "unknown" : 0,
-    "total" : 9
+    "total" : 7
   },
   "time" : {
-    "minDuration" : 9,
-    "maxDuration" : 96305,
-    "sumDuration" : 417180,
-    "start" : 1523543694027,
-    "stop" : 1523544320044,
-    "duration" : 626017
+    "minDuration" : 63990,
+    "maxDuration" : 168469,
+    "sumDuration" : 614895,
+    "start" : 1523879158728,
+    "stop" : 1523879925524,
+    "duration" : 766796
   },
   "children" : [ {
-    "uid" : "3badedba80da4ca9",
+    "uid" : "7d80f416a894873f",
     "name" : "DESKTOP-CO0ATF4",
     "time" : {
-      "minDuration" : 9,
-      "maxDuration" : 96305,
-      "sumDuration" : 417180,
-      "start" : 1523543694027,
-      "stop" : 1523544320044,
-      "duration" : 626017
+      "minDuration" : 63990,
+      "maxDuration" : 168469,
+      "sumDuration" : 614895,
+      "start" : 1523879158728,
+      "stop" : 1523879925524,
+      "duration" : 766796
     },
     "statistic" : {
-      "failed" : 1,
-      "broken" : 6,
+      "failed" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 9
+      "total" : 7
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "b7b07f12af32f03b",
-      "name" : "4148@DESKTOP-CO0ATF4.main(1)",
+      "uid" : "6571ad694a65db42",
+      "name" : "6140@DESKTOP-CO0ATF4.main(1)",
       "time" : {
-        "minDuration" : 9,
-        "maxDuration" : 96305,
-        "sumDuration" : 417180,
-        "start" : 1523543694027,
-        "stop" : 1523544320044,
-        "duration" : 626017
+        "minDuration" : 63990,
+        "maxDuration" : 168469,
+        "sumDuration" : 614895,
+        "start" : 1523879158728,
+        "stop" : 1523879925524,
+        "duration" : 766796
       },
       "statistic" : {
-        "failed" : 1,
-        "broken" : 6,
+        "failed" : 0,
+        "broken" : 2,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 9
+        "total" : 7
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "34b805dae41885b3",
-        "name" : "Создание кандидата",
+        "uid" : "55c71adfcf2872b0",
+        "name" : "Создание персонального вопроса",
         "time" : {
-          "start" : 1523543850429,
-          "stop" : 1523543900622,
-          "duration" : 50193
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "da91bef57a0ba161",
-        "name" : "Редактирование кандидата",
-        "time" : {
-          "start" : 1523544124000,
-          "stop" : 1523544181102,
-          "duration" : 57102
+          "start" : 1523879592227,
+          "stop" : 1523879689706,
+          "duration" : 97479
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "3098b71999f9d8b9",
-        "name" : "Создание кандидата",
+        "uid" : "8db2ab6797fbe594",
+        "name" : "Создание персонального вопроса",
         "time" : {
-          "start" : 1523543938888,
-          "stop" : 1523543989161,
-          "duration" : 50273
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "4cf7842b80d459e9",
-        "name" : "Создание кандидата",
-        "time" : {
-          "start" : 1523543791698,
-          "stop" : 1523543817697,
-          "duration" : 25999
-        },
-        "status" : "failed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "7fc3b2ef7ef74519",
-        "name" : "Редактирование кандидата",
-        "time" : {
-          "start" : 1523544212890,
-          "stop" : 1523544298276,
-          "duration" : 85386
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "fe1d3ad143ad6c5a",
-        "name" : "Создание кандидата",
-        "time" : {
-          "start" : 1523544320035,
-          "stop" : 1523544320044,
-          "duration" : 9
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "9c0eaaaf82e95042",
-        "name" : "Комментарии",
-        "time" : {
-          "start" : 1523543694027,
-          "stop" : 1523543790332,
-          "duration" : 96305
+          "start" : 1523879779725,
+          "stop" : 1523879846412,
+          "duration" : 66687
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "ecbcfd8eef4b028e",
-        "name" : "Удаление кандидата",
+        "uid" : "a465fdf4041785c5",
+        "name" : "Создание персонального вопроса",
         "time" : {
-          "start" : 1523544105049,
-          "stop" : 1523544106868,
-          "duration" : 1819
+          "start" : 1523879861534,
+          "stop" : 1523879925524,
+          "duration" : 63990
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "182d0d7d517263cc",
+        "name" : "Создание заявки",
+        "time" : {
+          "start" : 1523879290237,
+          "stop" : 1523879356812,
+          "duration" : 66575
         },
         "status" : "broken",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "764f71b7c1e5c511",
-        "name" : "Создание кандидата",
+        "uid" : "2bc95e95f9419d78",
+        "name" : "Создание заявки",
         "time" : {
-          "start" : 1523544039437,
-          "stop" : 1523544089531,
-          "duration" : 50094
+          "start" : 1523879405732,
+          "stop" : 1523879574201,
+          "duration" : 168469
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "968fb0385cdd7d97",
+        "name" : "Создание заявки",
+        "time" : {
+          "start" : 1523879158728,
+          "stop" : 1523879245645,
+          "duration" : 86917
         },
         "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "2ba64a95caecf778",
+        "name" : "Создание персонального вопроса",
+        "time" : {
+          "start" : 1523879703012,
+          "stop" : 1523879767790,
+          "duration" : 64778
+        },
+        "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]

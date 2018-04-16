@@ -1,0 +1,51 @@
+{
+  "uid" : "2bc95e95f9419d78",
+  "name" : "Создание заявки",
+  "fullName" : "test.TestApplication.createApplicationVacancy",
+  "historyId" : "bd6a83c15d30c4e10f99899bce6cf9d1",
+  "time" : {
+    "start" : 1523879405732,
+    "stop" : 1523879574201,
+    "duration" : 168469
+  },
+  "status" : "passed",
+  "description" : "Создание заявки с согласованием",
+  "descriptionHtml" : "<p>Создание заявки с согласованием</p>",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestApplication"
+  }, {
+    "name" : "testMethod",
+    "value" : "createApplicationVacancy"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestApplication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CO0ATF4"
+  }, {
+    "name" : "thread",
+    "value" : "6140@DESKTOP-CO0ATF4.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Заявки/Вакансии"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 3 – Создание заявки/выбор кандидата на согласование/согласование/создание вакансии"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

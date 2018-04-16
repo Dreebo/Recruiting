@@ -1,91 +1,71 @@
 [ {
-  "uid" : "fbe1bea78675bc4a",
-  "name" : "Создание кандидата",
+  "uid" : "55c71adfcf2872b0",
+  "name" : "Создание персонального вопроса",
   "time" : {
-    "start" : 1523543850429,
-    "stop" : 1523543900622,
-    "duration" : 50193
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "c597461315cfc056",
-  "name" : "Редактирование кандидата",
-  "time" : {
-    "start" : 1523544124000,
-    "stop" : 1523544181102,
-    "duration" : 57102
+    "start" : 1523879592227,
+    "stop" : 1523879689706,
+    "duration" : 97479
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "7c986a1679204182",
-  "name" : "Создание кандидата",
+  "uid" : "8db2ab6797fbe594",
+  "name" : "Создание персонального вопроса",
   "time" : {
-    "start" : 1523543938888,
-    "stop" : 1523543989161,
-    "duration" : 50273
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "3cdbc9651da5e182",
-  "name" : "Создание кандидата",
-  "time" : {
-    "start" : 1523543791698,
-    "stop" : 1523543817697,
-    "duration" : 25999
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "da4f3a7f81a0a663",
-  "name" : "Редактирование кандидата",
-  "time" : {
-    "start" : 1523544212890,
-    "stop" : 1523544298276,
-    "duration" : 85386
-  },
-  "status" : "broken",
-  "severity" : "trivial"
-}, {
-  "uid" : "d3d3b9b615b8f793",
-  "name" : "Создание кандидата",
-  "time" : {
-    "start" : 1523544320035,
-    "stop" : 1523544320044,
-    "duration" : 9
-  },
-  "status" : "broken",
-  "severity" : "blocker"
-}, {
-  "uid" : "15bb2e1f6656b4ad",
-  "name" : "Комментарии",
-  "time" : {
-    "start" : 1523543694027,
-    "stop" : 1523543790332,
-    "duration" : 96305
+    "start" : 1523879779725,
+    "stop" : 1523879846412,
+    "duration" : 66687
   },
   "status" : "passed",
-  "severity" : "trivial"
+  "severity" : "blocker"
 }, {
-  "uid" : "918fbca775fd2871",
-  "name" : "Удаление кандидата",
+  "uid" : "a465fdf4041785c5",
+  "name" : "Создание персонального вопроса",
   "time" : {
-    "start" : 1523544105049,
-    "stop" : 1523544106868,
-    "duration" : 1819
+    "start" : 1523879861534,
+    "stop" : 1523879925524,
+    "duration" : 63990
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "182d0d7d517263cc",
+  "name" : "Создание заявки",
+  "time" : {
+    "start" : 1523879290237,
+    "stop" : 1523879356812,
+    "duration" : 66575
   },
   "status" : "broken",
   "severity" : "blocker"
 }, {
-  "uid" : "55032a16375530f9",
-  "name" : "Создание кандидата",
+  "uid" : "2bc95e95f9419d78",
+  "name" : "Создание заявки",
   "time" : {
-    "start" : 1523544039437,
-    "stop" : 1523544089531,
-    "duration" : 50094
+    "start" : 1523879405732,
+    "stop" : 1523879574201,
+    "duration" : 168469
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "968fb0385cdd7d97",
+  "name" : "Создание заявки",
+  "time" : {
+    "start" : 1523879158728,
+    "stop" : 1523879245645,
+    "duration" : 86917
   },
   "status" : "broken",
-  "severity" : "trivial"
+  "severity" : "blocker"
+}, {
+  "uid" : "2ba64a95caecf778",
+  "name" : "Создание персонального вопроса",
+  "time" : {
+    "start" : 1523879703012,
+    "stop" : 1523879767790,
+    "duration" : 64778
+  },
+  "status" : "passed",
+  "severity" : "blocker"
 } ]

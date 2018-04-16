@@ -1,0 +1,51 @@
+{
+  "uid" : "2ba64a95caecf778",
+  "name" : "Создание персонального вопроса",
+  "fullName" : "test.TestQuestion.addQuestionEmpty",
+  "historyId" : "696e9dbea4354ed1c6e9ceef1a84342e",
+  "time" : {
+    "start" : 1523879703012,
+    "stop" : 1523879767790,
+    "duration" : 64778
+  },
+  "status" : "passed",
+  "description" : "Создание негативного вопроса",
+  "descriptionHtml" : "<p>Создание негативного вопроса</p>",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestQuestion"
+  }, {
+    "name" : "testMethod",
+    "value" : "addQuestionEmpty"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestQuestion"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CO0ATF4"
+  }, {
+    "name" : "thread",
+    "value" : "6140@DESKTOP-CO0ATF4.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вопросы"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Сохранение вопроса без заполнения обязательных полей"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

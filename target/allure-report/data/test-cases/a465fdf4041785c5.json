@@ -1,0 +1,51 @@
+{
+  "uid" : "a465fdf4041785c5",
+  "name" : "Создание персонального вопроса",
+  "fullName" : "test.TestQuestion.addQuestionNoCompetence",
+  "historyId" : "9137e05606f2db8485a1c386190a8ab3",
+  "time" : {
+    "start" : 1523879861534,
+    "stop" : 1523879925524,
+    "duration" : 63990
+  },
+  "status" : "passed",
+  "description" : "Создание негативного вопроса",
+  "descriptionHtml" : "<p>Создание негативного вопроса</p>",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestQuestion"
+  }, {
+    "name" : "testMethod",
+    "value" : "addQuestionNoCompetence"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestQuestion"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CO0ATF4"
+  }, {
+    "name" : "thread",
+    "value" : "6140@DESKTOP-CO0ATF4.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вопросы"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 3 – Сохранение вопроса без компетенции"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

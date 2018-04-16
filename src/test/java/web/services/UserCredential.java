@@ -2,17 +2,21 @@ package web.services;
 
 import web.models.UserModel;
 
+import java.util.Hashtable;
+
 public class UserCredential {
     public UserModel getUserCredentialByRole (String role) {
-        UserModel user = new UserModel();
+        Hashtable<String, UserModel> userHash = createUserHash();
 
-        if (role == "admin") {
-            return getAdminCredential();
-        } else if (role == "director") {
-            return getDirectorCredential();
-        }
+        return userHash.get(role);
+    }
 
-        return user;
+    private Hashtable createUserHash() {
+        Hashtable<String, UserModel> userHash = new Hashtable<>();
+        userHash.put("admin", getAdminCredential());
+        userHash.put("director", getDirectorCredential());
+
+        return userHash;
     }
 
     private UserModel getAdminCredential () {

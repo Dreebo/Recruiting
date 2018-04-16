@@ -1,146 +1,199 @@
 {
   "statistic" : {
-    "failed" : 1,
-    "broken" : 6,
+    "failed" : 0,
+    "broken" : 2,
     "skipped" : 0,
-    "passed" : 2,
+    "passed" : 5,
     "unknown" : 0,
-    "total" : 9
+    "total" : 7
   },
   "time" : {
-    "minDuration" : 9,
-    "maxDuration" : 96305,
-    "sumDuration" : 417180,
-    "start" : 1523543694027,
-    "stop" : 1523544320044,
-    "duration" : 626017
+    "minDuration" : 63990,
+    "maxDuration" : 168469,
+    "sumDuration" : 614895,
+    "start" : 1523879158728,
+    "stop" : 1523879925524,
+    "duration" : 766796
   },
   "children" : [ {
-    "uid" : "b1961ec22ce86fdb",
-    "name" : "Подбор и адаптация",
+    "uid" : "51b88b936437741d",
+    "name" : "Вопросы",
     "time" : {
-      "minDuration" : 1819,
-      "maxDuration" : 50273,
-      "sumDuration" : 178378,
-      "start" : 1523543791698,
-      "stop" : 1523544106868,
-      "duration" : 315170
+      "minDuration" : 63990,
+      "maxDuration" : 97479,
+      "sumDuration" : 292934,
+      "start" : 1523879592227,
+      "stop" : 1523879925524,
+      "duration" : 333297
     },
     "statistic" : {
-      "failed" : 1,
-      "broken" : 4,
+      "failed" : 0,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 5
+      "total" : 4
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "816a345e49ca14a1",
-      "name" : "Сценарий 1 – Создание Кандидата, заполнение обязательных полей",
+      "uid" : "d27f44c24f37317a",
+      "name" : "Сценарий 1– Заполнение всех обязательных полей",
       "time" : {
-        "minDuration" : 50193,
-        "maxDuration" : 50193,
-        "sumDuration" : 50193,
-        "start" : 1523543850429,
-        "stop" : 1523543900622,
-        "duration" : 50193
+        "minDuration" : 97479,
+        "maxDuration" : 97479,
+        "sumDuration" : 97479,
+        "start" : 1523879592227,
+        "stop" : 1523879689706,
+        "duration" : 97479
       },
       "statistic" : {
         "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "34b805dae41885b3",
-        "name" : "Создание кандидата",
-        "time" : {
-          "start" : 1523543850429,
-          "stop" : 1523543900622,
-          "duration" : 50193
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "89c24e2e05c390f3",
-      "name" : "Сценарий 3 – Создание кандидата без заполнение обязательных полей",
-      "time" : {
-        "minDuration" : 50273,
-        "maxDuration" : 50273,
-        "sumDuration" : 50273,
-        "start" : 1523543938888,
-        "stop" : 1523543989161,
-        "duration" : 50273
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "3098b71999f9d8b9",
-        "name" : "Создание кандидата",
-        "time" : {
-          "start" : 1523543938888,
-          "stop" : 1523543989161,
-          "duration" : 50273
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "3f99c615ba477c3c",
-      "name" : "Сценарий 2 – Создание кандидата без заполнения одного обязательного поля",
-      "time" : {
-        "minDuration" : 25999,
-        "maxDuration" : 25999,
-        "sumDuration" : 25999,
-        "start" : 1523543791698,
-        "stop" : 1523543817697,
-        "duration" : 25999
-      },
-      "statistic" : {
-        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 1,
         "unknown" : 0,
         "total" : 1
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "4cf7842b80d459e9",
-        "name" : "Создание кандидата",
+        "uid" : "55c71adfcf2872b0",
+        "name" : "Создание персонального вопроса",
         "time" : {
-          "start" : 1523543791698,
-          "stop" : 1523543817697,
-          "duration" : 25999
+          "start" : 1523879592227,
+          "stop" : 1523879689706,
+          "duration" : 97479
         },
-        "status" : "failed",
+        "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "2d58f7ec9b30f6f5",
-      "name" : "Сценарий 1 – Удаление существующего кандидата",
+      "uid" : "35829f439062f90c",
+      "name" : "Сценарий 4 – Сохранение вопроса без заполнения поля 'Вопрос'",
       "time" : {
-        "minDuration" : 1819,
-        "maxDuration" : 1819,
-        "sumDuration" : 1819,
-        "start" : 1523544105049,
-        "stop" : 1523544106868,
-        "duration" : 1819
+        "minDuration" : 66687,
+        "maxDuration" : 66687,
+        "sumDuration" : 66687,
+        "start" : 1523879779725,
+        "stop" : 1523879846412,
+        "duration" : 66687
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "8db2ab6797fbe594",
+        "name" : "Создание персонального вопроса",
+        "time" : {
+          "start" : 1523879779725,
+          "stop" : 1523879846412,
+          "duration" : 66687
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "97ebfe28efea41",
+      "name" : "Сценарий 3 – Сохранение вопроса без компетенции",
+      "time" : {
+        "minDuration" : 63990,
+        "maxDuration" : 63990,
+        "sumDuration" : 63990,
+        "start" : 1523879861534,
+        "stop" : 1523879925524,
+        "duration" : 63990
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "a465fdf4041785c5",
+        "name" : "Создание персонального вопроса",
+        "time" : {
+          "start" : 1523879861534,
+          "stop" : 1523879925524,
+          "duration" : 63990
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "b03b049e2f672634",
+      "name" : "Сценарий 2 – Сохранение вопроса без заполнения обязательных полей",
+      "time" : {
+        "minDuration" : 64778,
+        "maxDuration" : 64778,
+        "sumDuration" : 64778,
+        "start" : 1523879703012,
+        "stop" : 1523879767790,
+        "duration" : 64778
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "2ba64a95caecf778",
+        "name" : "Создание персонального вопроса",
+        "time" : {
+          "start" : 1523879703012,
+          "stop" : 1523879767790,
+          "duration" : 64778
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "96936d7a3a6bb0ee",
+    "name" : "Заявки",
+    "time" : {
+      "minDuration" : 66575,
+      "maxDuration" : 86917,
+      "sumDuration" : 153492,
+      "start" : 1523879158728,
+      "stop" : 1523879356812,
+      "duration" : 198084
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "1549361b359d904a",
+      "name" : "Сценарий 2– Создание заявки с заполнением всех обязательных полей",
+      "time" : {
+        "minDuration" : 66575,
+        "maxDuration" : 66575,
+        "sumDuration" : 66575,
+        "start" : 1523879290237,
+        "stop" : 1523879356812,
+        "duration" : 66575
       },
       "statistic" : {
         "failed" : 0,
@@ -152,27 +205,27 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "ecbcfd8eef4b028e",
-        "name" : "Удаление кандидата",
+        "uid" : "182d0d7d517263cc",
+        "name" : "Создание заявки",
         "time" : {
-          "start" : 1523544105049,
-          "stop" : 1523544106868,
-          "duration" : 1819
+          "start" : 1523879290237,
+          "stop" : 1523879356812,
+          "duration" : 66575
         },
         "status" : "broken",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "895c11f5b3fc7f99",
-      "name" : "Сценарий 4 – Сздание кандидата с некорректным номером телефона",
+      "uid" : "1603e70885bb7f9a",
+      "name" : "Сценарий 1– Создание заявки/выбор кандидата на согласование/согласование",
       "time" : {
-        "minDuration" : 50094,
-        "maxDuration" : 50094,
-        "sumDuration" : 50094,
-        "start" : 1523544039437,
-        "stop" : 1523544089531,
-        "duration" : 50094
+        "minDuration" : 86917,
+        "maxDuration" : 86917,
+        "sumDuration" : 86917,
+        "start" : 1523879158728,
+        "stop" : 1523879245645,
+        "duration" : 86917
       },
       "statistic" : {
         "failed" : 0,
@@ -184,12 +237,12 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "764f71b7c1e5c511",
-        "name" : "Создание кандидата",
+        "uid" : "968fb0385cdd7d97",
+        "name" : "Создание заявки",
         "time" : {
-          "start" : 1523544039437,
-          "stop" : 1523544089531,
-          "duration" : 50094
+          "start" : 1523879158728,
+          "stop" : 1523879245645,
+          "duration" : 86917
         },
         "status" : "broken",
         "flaky" : false,
@@ -197,35 +250,35 @@
       } ]
     } ]
   }, {
-    "uid" : "9c5fdad42b24e643",
-    "name" : "Кандидат",
+    "uid" : "ec831b45882911fe",
+    "name" : "Заявки/Вакансии",
     "time" : {
-      "minDuration" : 9,
-      "maxDuration" : 96305,
-      "sumDuration" : 238802,
-      "start" : 1523543694027,
-      "stop" : 1523544320044,
-      "duration" : 626017
+      "minDuration" : 168469,
+      "maxDuration" : 168469,
+      "sumDuration" : 168469,
+      "start" : 1523879405732,
+      "stop" : 1523879574201,
+      "duration" : 168469
     },
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "5cae092291fdd8dd",
-      "name" : "Сценарий 1 – Изменение полей существующего кандидата",
+      "uid" : "60643f62433876a4",
+      "name" : "Сценарий 3 – Создание заявки/выбор кандидата на согласование/согласование/создание вакансии",
       "time" : {
-        "minDuration" : 57102,
-        "maxDuration" : 57102,
-        "sumDuration" : 57102,
-        "start" : 1523544124000,
-        "stop" : 1523544181102,
-        "duration" : 57102
+        "minDuration" : 168469,
+        "maxDuration" : 168469,
+        "sumDuration" : 168469,
+        "start" : 1523879405732,
+        "stop" : 1523879574201,
+        "duration" : 168469
       },
       "statistic" : {
         "failed" : 0,
@@ -237,108 +290,12 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "da91bef57a0ba161",
-        "name" : "Редактирование кандидата",
+        "uid" : "2bc95e95f9419d78",
+        "name" : "Создание заявки",
         "time" : {
-          "start" : 1523544124000,
-          "stop" : 1523544181102,
-          "duration" : 57102
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "6a69ea32c1ebe096",
-      "name" : "Сценарий 2 – Изменение года рождения на неккоректное значение",
-      "time" : {
-        "minDuration" : 85386,
-        "maxDuration" : 85386,
-        "sumDuration" : 85386,
-        "start" : 1523544212890,
-        "stop" : 1523544298276,
-        "duration" : 85386
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "7fc3b2ef7ef74519",
-        "name" : "Редактирование кандидата",
-        "time" : {
-          "start" : 1523544212890,
-          "stop" : 1523544298276,
-          "duration" : 85386
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "34eaada2b5cd8282",
-      "name" : "Сценарий 1 – Создание кандидата с загрузкой фото",
-      "time" : {
-        "minDuration" : 9,
-        "maxDuration" : 9,
-        "sumDuration" : 9,
-        "start" : 1523544320035,
-        "stop" : 1523544320044,
-        "duration" : 9
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "fe1d3ad143ad6c5a",
-        "name" : "Создание кандидата",
-        "time" : {
-          "start" : 1523544320035,
-          "stop" : 1523544320044,
-          "duration" : 9
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "43389dedeba301d8",
-      "name" : "Сценарий 1 – Создание комментария у имеющегося кандидата",
-      "time" : {
-        "minDuration" : 96305,
-        "maxDuration" : 96305,
-        "sumDuration" : 96305,
-        "start" : 1523543694027,
-        "stop" : 1523543790332,
-        "duration" : 96305
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "9c0eaaaf82e95042",
-        "name" : "Комментарии",
-        "time" : {
-          "start" : 1523543694027,
-          "stop" : 1523543790332,
-          "duration" : 96305
+          "start" : 1523879405732,
+          "stop" : 1523879574201,
+          "duration" : 168469
         },
         "status" : "passed",
         "flaky" : false,

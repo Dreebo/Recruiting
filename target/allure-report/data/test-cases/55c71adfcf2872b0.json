@@ -1,0 +1,51 @@
+{
+  "uid" : "55c71adfcf2872b0",
+  "name" : "Создание персонального вопроса",
+  "fullName" : "test.TestQuestion.addQuestion",
+  "historyId" : "bb1f96a4109b9062a8ea063d6a1516de",
+  "time" : {
+    "start" : 1523879592227,
+    "stop" : 1523879689706,
+    "duration" : 97479
+  },
+  "status" : "passed",
+  "description" : "Создание вопроса",
+  "descriptionHtml" : "<p>Создание вопроса</p>",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestQuestion"
+  }, {
+    "name" : "testMethod",
+    "value" : "addQuestion"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestQuestion"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CO0ATF4"
+  }, {
+    "name" : "thread",
+    "value" : "6140@DESKTOP-CO0ATF4.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вопросы"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1– Заполнение всех обязательных полей"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}
